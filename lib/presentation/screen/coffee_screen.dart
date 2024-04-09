@@ -7,7 +7,6 @@ import '../widget/coffee_screen_widgets/high_priority_selector.dart';
 import '../widget/coffee_screen_widgets/milk_selector_area.dart';
 import '../widget/coffee_screen_widgets/quentity_button.dart';
 import '../widget/coffee_screen_widgets/suger_selector_area.dart';
-import '../widget/frosted_widget.dart';
 
 class CoffeeScreen extends StatelessWidget {
   const CoffeeScreen({super.key});

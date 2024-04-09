@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class BackgroundWidget extends StatelessWidget {
   final Widget child;
-  bool brownHue;
-  BackgroundWidget({super.key, required this.child,required this.brownHue});
+  final bool brownHue;
+  const BackgroundWidget({super.key, required this.child,required this.brownHue});
 
   @override
   Widget build(BuildContext context) {
